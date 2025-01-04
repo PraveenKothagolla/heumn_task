@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/https://heumn_task/static/css/main.db62923b.css",
-    "main.js": "/https://heumn_task/static/js/main.5c069fb4.js",
-    "static/js/453.ed3810f9.chunk.js": "/https://heumn_task/static/js/453.ed3810f9.chunk.js",
-    "index.html": "/https://heumn_task/index.html",
-    "main.db62923b.css.map": "/https://heumn_task/static/css/main.db62923b.css.map",
-    "main.5c069fb4.js.map": "/https://heumn_task/static/js/main.5c069fb4.js.map",
-    "453.ed3810f9.chunk.js.map": "/https://heumn_task/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/heumn_task/static/css/main.db62923b.css",
+    "main.js": "/heumn_task/static/js/main.aab27638.js",
+    "static/js/453.ed3810f9.chunk.js": "/heumn_task/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/heumn_task/index.html",
+    "main.db62923b.css.map": "/heumn_task/static/css/main.db62923b.css.map",
+    "main.aab27638.js.map": "/heumn_task/static/js/main.aab27638.js.map",
+    "453.ed3810f9.chunk.js.map": "/heumn_task/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db62923b.css",
-    "static/js/main.5c069fb4.js"
+    "static/js/main.aab27638.js"
   ]
 }
