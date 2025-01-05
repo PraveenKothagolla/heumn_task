@@ -1,4 +1,6 @@
 import React from 'react';
+import image6 from "../assets/chrome_png-removebg-preview.png" ;
+import image7 from "../assets/9.png" 
 
 function Cards() {
   const total = {
@@ -84,7 +86,7 @@ const keyframes = `
         <p style={{ color: 'blue' }}>Learn about automatic updates</p>
         <div style={image11}>
           <img
-            src={'/images/9.png'}
+            src={image7}
             width={'95%'}
             style={{ borderRadius: '3%' }}
           ></img>
@@ -100,7 +102,7 @@ const keyframes = `
         <a href="#">Learn what's new on Chrome</a>
 
          <div style={image12}>
-          <img src="/images/chrome_png-removebg-preview.png"></img>
+          <img src={image6}></img>
         </div> 
 
       </div>

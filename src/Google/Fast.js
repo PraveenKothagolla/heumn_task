@@ -1,48 +1,4 @@
-// import React from 'react';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/js/bootstrap.bundle.min';
-// function Fast() {
-//   return (
-//     <div id='fast'>
-//        <div id="first">
-//              <center>
-//                 <h1>Make It</h1>
-//               </center>
-//               <center>
-//                 <h1>
-//                   <span
 
-//                     style={{
-//                       borderRadius:"15%",
-//                       // backgroundColor: 'lightblue',
-//                       // backgroundColor:"#f1f5ff",
-//                       display: 'inline-flex',
-//                       alignItems: 'center',
-//                       padding:"10px"
-//                     }}
-//                   >
-//                   <img src="/images/paint-removebg-preview.png" style={{width:"30px",height:"30px"}}></img>
-//                   <h1>yours</h1>
-//                  </span>{' '}
-//               and
-//                 </h1>
-//                 <h1>take it with you </h1>
-//               </center>
-
-//               <div id="second">
-//                  <img src="/images/1.webp"></img>
-//               </div>
-//               <div id="third">
-//                 <img src="/images/5.webp"></img>
-//               </div>
-              
-         
-//          </div>   
-//          </div>
-//   );
-// }
-
-// export default Fast;
 
 
 import React, { useEffect, useRef } from 'react';
@@ -50,6 +6,8 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import image9 from "../assets/paint-removebg-preview.png";
+import image10 from "../assets/1.webp";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -144,7 +102,7 @@ function Fast() {
               }}
             >
               <img
-                src="/images/paint-removebg-preview.png"
+                src={image9}
                 style={{ width: '30px', height: '30px' }}
                 alt="paint icon"
               />
@@ -169,7 +127,7 @@ function Fast() {
           transition: 'opacity 1s ease',
         }}
       >
-        <img src="/images/1.webp" alt="First Image" style={{ width: '100%' }} />
+        <img src={ image10} alt="First Image" style={{ width: '100%' }} />
       </div>
 
       {/* Third Div */}
@@ -185,7 +143,7 @@ function Fast() {
           transition: 'opacity 1s ease',
         }}
       >
-   <center>     <img src="/images/5.webp" alt="Second Image" style={{ width: '70%' }} /></center>
+   <center>     <img src={image10} alt="Second Image" style={{ width: '70%' }} /></center>
       </div>
     </div>
   );

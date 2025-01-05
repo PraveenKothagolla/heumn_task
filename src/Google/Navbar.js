@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import image from "../assets/chrome_png-removebg-preview.png";
 
 function ColorSchemesExample() {
   return (
@@ -9,7 +10,7 @@ function ColorSchemesExample() {
       <Navbar bg="light" variant="light">
         <Container>
           <Navbar.Brand href="#home" className="d-flex align-items-center">
-             <img  style={{ marginRight: "40px" }} height="40" src="/images/chrome_png-removebg-preview.png">
+             <img  style={{ marginRight: "40px" }} height="40" src={image} alt="hi">
              </img> <span className="fw-bold">Chrome</span>
             <span className="ms-3 fw-bold">Home</span>
           </Navbar.Brand>
