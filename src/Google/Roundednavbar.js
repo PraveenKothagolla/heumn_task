@@ -33,6 +33,9 @@ import Container from 'react-bootstrap/Container';
 // import Container from "react-bootstrap/Container";
 import { useRef,useEffect } from 'react';
 import gsap from "gsap";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
+ 
 
 const RoundedNavBar = () => {
   const navbarRef = useRef();
@@ -80,7 +83,7 @@ const RoundedNavBar = () => {
           borderRadius: "25px",
           boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.1)",
           padding: "10px 20px",
-          width: "600px",
+          width: "650px",
           position: "fixed",
           top: "20px", // This is the final position when visible
           left: "50%",
@@ -119,6 +122,12 @@ const RoundedNavBar = () => {
               style={{ color: "#555", fontWeight: "500", margin: "0 15px" }}
             >
               By Google
+            </Nav.Link>
+            <Nav.Link
+              href="#by-google"
+              style={{ color: "#555", fontWeight: "500", margin: "0 15px" }}
+            >
+              <button style={{backgroundColor:"#4285F4",color:"white",borderRadius:"25px",border:"white",padding:"5px",width:"100px",height:"60px"}}><FontAwesomeIcon icon={faDownload} /><p>download</p></button>
             </Nav.Link>
           </Nav>
         </Container>

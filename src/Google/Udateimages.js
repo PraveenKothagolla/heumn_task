@@ -116,7 +116,7 @@ function Update() {
             <span
               //  ref={textRef}
               style={{
-                borderRadius: '15%',
+                borderRadius: '25px',
                 backgroundColor: '#f1f5ff',
                 display: 'inline-flex',
                 alignItems: 'center',
