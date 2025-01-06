@@ -1,21 +1,37 @@
 {
   "files": {
     "main.css": "/heumn_task/static/css/main.db62923b.css",
-    "main.js": "/heumn_task/static/js/main.9d1a8fb2.js",
+    "main.js": "/heumn_task/static/js/main.1229e72d.js",
     "static/js/453.ed3810f9.chunk.js": "/heumn_task/static/js/453.ed3810f9.chunk.js",
+    "static/media/video.mp4": "/heumn_task/static/media/video.c42c7c18b06050b51e5b.mp4",
+    "static/media/extend_image.png": "/heumn_task/static/media/extend_image.1726a496e9e207bb52d4.png",
     "static/media/1.webp": "/heumn_task/static/media/1.33d607d998b47707ce49.webp",
+    "static/media/box1-1.webp": "/heumn_task/static/media/box1-1.da518c4eb919d3de5dca.webp",
+    "static/media/box1-2.webp": "/heumn_task/static/media/box1-2.da518c4eb919d3de5dca.webp",
+    "static/media/box1-3.webp": "/heumn_task/static/media/box1-3.da518c4eb919d3de5dca.webp",
     "static/media/chrome_png-removebg-preview.png": "/heumn_task/static/media/chrome_png-removebg-preview.405b805506dbaa94ed12.png",
+    "static/media/drivw-removebg-preview.png": "/heumn_task/static/media/drivw-removebg-preview.33243f5740594719d828.png",
+    "static/media/search-removebg-preview.png": "/heumn_task/static/media/search-removebg-preview.6a5c75eaa6f2ee0406ba.png",
+    "static/media/built-removebg-preview.png": "/heumn_task/static/media/built-removebg-preview.187ada4ba312b6b959aa.png",
+    "static/media/car_image.webp": "/heumn_task/static/media/car_image.a91acb1b8bf6d27793e0.webp",
     "static/media/3.webp": "/heumn_task/static/media/3.f0609b2c2bc9db141943.webp",
+    "static/media/search-front_desktop-2x.webp": "/heumn_task/static/media/search-front_desktop-2x.2db4a4cfa62485a5f498.webp",
+    "static/media/ai_desktop-2x.webp": "/heumn_task/static/media/ai_desktop-2x.33158347006a6992f35d.webp",
+    "static/media/extend_icon1.png": "/heumn_task/static/media/extend_icon1.129496f49d7781a7bfd7.png",
+    "static/media/box4.webp": "/heumn_task/static/media/box4.84ce99a3e2dfd3ddecb6.webp",
+    "static/media/mail-removebg-preview.png": "/heumn_task/static/media/mail-removebg-preview.1fd905a7eaa3f34cf9e8.png",
     "static/media/paint-removebg-preview.png": "/heumn_task/static/media/paint-removebg-preview.0e8316eb1b2af1153ba7.png",
+    "static/media/fastway-removebg-preview.png": "/heumn_task/static/media/fastway-removebg-preview.6fe242a62224441ce353.png",
     "static/media/9.png": "/heumn_task/static/media/9.27719e3ddf75202af288.png",
     "static/media/4.webp": "/heumn_task/static/media/4.49f31d7612ff635ffcd0.webp",
+    "static/media/docs.webp": "/heumn_task/static/media/docs.1867e9783a9192b5479e.webp",
     "index.html": "/heumn_task/index.html",
     "main.db62923b.css.map": "/heumn_task/static/css/main.db62923b.css.map",
-    "main.9d1a8fb2.js.map": "/heumn_task/static/js/main.9d1a8fb2.js.map",
+    "main.1229e72d.js.map": "/heumn_task/static/js/main.1229e72d.js.map",
     "453.ed3810f9.chunk.js.map": "/heumn_task/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db62923b.css",
-    "static/js/main.9d1a8fb2.js"
+    "static/js/main.1229e72d.js"
   ]
 }
